@@ -8,6 +8,20 @@
     <artifactId>jpa-lambda-integration-test</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <!-- Latest DN 4.0 M3 jars -->
+        <repository>
+            <id>DN_Nightly_M2_Repo</id>
+            <url>http://www.datanucleus.org/downloads/maven2-nightly/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
