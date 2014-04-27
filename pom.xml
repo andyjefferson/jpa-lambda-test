@@ -8,30 +8,11 @@
     <artifactId>jpa-lambda-integration-test</artifactId>
     <version>1.0</version>
 
-    <repositories>
-        <!-- Latest DN 4.0 M3 jars -->
-        <repository>
-            <id>DN_Nightly_M2_Repo</id>
-            <url>http://www.datanucleus.org/downloads/maven2-nightly/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.27</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.jdo</groupId>
-            <artifactId>jdo-api</artifactId>
-            <version>[3.0, )</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
@@ -41,12 +22,12 @@
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-core</artifactId>
-            <version>[4.0.0-m2, )</version>
+            <version>[4.0.0-m3, )</version>
         </dependency>
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-api-jpa</artifactId>
-            <version>[4.0.0-m2, )</version>
+            <version>[4.0.0-m3, )</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -56,7 +37,7 @@
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-rdbms</artifactId>
-            <version>[4.0.0-m2, )</version>
+            <version>[4.0.0-m3, )</version>
         </dependency>
     </dependencies>
 
